@@ -1,13 +1,20 @@
-# include <unistd.h>
-/**
- * main -Entry-point *
- * description:print without printf or puts *
- * Return: 1 (error)
-*/
-int main(void)
-{
-char quo[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+#include <unistd.h>
 
-write(1. quo. 59);
-return (1);
+/* Prototype for the _putchar function */
+int _putchar(char c);
+
+int main(void) {
+    char text[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+    int i;
+
+    for (i = 0; text[i] != '\0'; i++) {
+        _putchar(text[i]);
+    }
+
+    return (0);
+}
+
+/* Definition of the _putchar function */
+int _putchar(char c) {
+    return write(2, &c, 1);  // Write to standard error (file descriptor 2)
 }
