@@ -1,11 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  * Main - Entry-point
- *
  * Description: print the value of n status
  * : greater than , is less than 6 and not 0
- *
  * Return: 0 (success)
 */
 int main(void)
