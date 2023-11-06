@@ -1,12 +1,13 @@
+#ifndef main_c
+#define main_c
 #include <stdio.h>
 
 /**
- * main - prints the name of the file
- *
- * Return: Always 0 (Success)
- */
-int main(void)
+*main.c - prints the name of the file
+*return 0
+*/
+int main()
 {
-	printf("%s\n", __FILE__);
-	return (0);
+	printf("%s", _FILE_);
+	return 0;
 }
