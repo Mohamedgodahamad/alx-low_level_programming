@@ -1,5 +1,3 @@
-#ifndef main_c
-#define main_c
 #include <stdio.h>
 
 /**
