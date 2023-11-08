@@ -1,5 +1,6 @@
 #include "function_pointers.h"
 #include <stdio.h>
+
 /**
  *int_index - searches for an integer
  *@array: an array to be compared
@@ -7,6 +8,7 @@
  *@cmp: a function pointer
  *Return: 0
  */
+
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
